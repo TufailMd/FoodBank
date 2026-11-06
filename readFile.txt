@@ -1,0 +1,4 @@
+cp -r my-starter new-project
+cd new-project
+npm install
+npm run dev

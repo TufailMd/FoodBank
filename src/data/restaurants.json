@@ -1,0 +1,215 @@
+[
+  {
+    "id": "spice-symphony",
+    "name": "Spice Symphony",
+    "rating": 4.2,
+    "cuisine": "North Indian, Chinese",
+    "location": "Downtown",
+    "priceForTwo": 400,
+    "isVeg": false,
+    "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&auto=format&fit=crop",
+    "menu": [
+      {
+        "id": "ss-1",
+        "name": "Butter Chicken",
+        "description": "Tender chicken pieces slow-cooked in a rich, creamy tomato-based gravy with aromatic spices and a touch of cream.",
+        "price": 320,
+        "category": "Recommended",
+        "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=400&auto=format&fit=crop",
+        "isBestSeller": true
+      },
+      {
+        "id": "ss-2",
+        "name": "Dal Makhani",
+        "description": "Slow-cooked whole black lentils in creamy tomato and butter sauce, best paired with garlic naan.",
+        "price": 220,
+        "category": "Recommended",
+        "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400&auto=format&fit=crop",
+        "isBestSeller": false
+      },
+      {
+        "id": "ss-3",
+        "name": "Veg Fried Rice",
+        "description": "Wok-tossed basmati rice with seasonal vegetables, soy sauce, and a hint of sesame oil.",
+        "price": 180,
+        "category": "Main Course",
+        "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&auto=format&fit=crop",
+        "isBestSeller": false
+      },
+      {
+        "id": "ss-4",
+        "name": "Paneer Tikka",
+        "description": "Chunks of cottage cheese marinated in spiced yogurt, grilled in a tandoor to smoky perfection.",
+        "price": 280,
+        "category": "Main Course",
+        "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=400&auto=format&fit=crop",
+        "isBestSeller": false
+      }
+    ]
+  },
+  {
+    "id": "green-bowl",
+    "name": "Green Bowl",
+    "rating": 4.5,
+    "cuisine": "Healthy, Salads",
+    "location": "Bandra",
+    "priceForTwo": 300,
+    "isVeg": true,
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&auto=format&fit=crop",
+    "menu": [
+      {
+        "id": "gb-1",
+        "name": "Quinoa Power Bowl",
+        "description": "Protein-packed quinoa with roasted vegetables, chickpeas, avocado, and a lemon-tahini dressing.",
+        "price": 280,
+        "category": "Recommended",
+        "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&auto=format&fit=crop",
+        "isBestSeller": true
+      },
+      {
+        "id": "gb-2",
+        "name": "Classic Caesar Salad",
+        "description": "Crisp romaine lettuce, house-made croutons, shaved parmesan, and our classic Caesar dressing.",
+        "price": 220,
+        "category": "Recommended",
+        "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=400&auto=format&fit=crop",
+        "isBestSeller": false
+      },
+      {
+        "id": "gb-3",
+        "name": "Green Detox Smoothie",
+        "description": "Fresh spinach, banana, almond milk, chia seeds, and a dash of ginger — cold-blended fresh.",
+        "price": 150,
+        "category": "Beverages",
+        "image": "https://images.unsplash.com/photo-1610970881699-44a5587cabec?w=400&auto=format&fit=crop",
+        "isBestSeller": false
+      }
+    ]
+  },
+  {
+    "id": "pizza-perfect",
+    "name": "Pizza Perfect",
+    "rating": 4.0,
+    "cuisine": "Italian, Pizza",
+    "location": "Andheri",
+    "priceForTwo": 500,
+    "isVeg": false,
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&auto=format&fit=crop",
+    "menu": [
+      {
+        "id": "pp-1",
+        "name": "Margherita Pizza",
+        "description": "Classic San Marzano tomato sauce, fresh mozzarella, hand-torn basil on a crispy thin crust.",
+        "price": 350,
+        "category": "Recommended",
+        "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400&auto=format&fit=crop",
+        "isBestSeller": true
+      },
+      {
+        "id": "pp-2",
+        "name": "BBQ Chicken Pizza",
+        "description": "Smoky BBQ sauce base, grilled chicken strips, caramelised red onions, and melted mozzarella.",
+        "price": 480,
+        "category": "Recommended",
+        "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&auto=format&fit=crop",
+        "isBestSeller": false
+      },
+      {
+        "id": "pp-3",
+        "name": "Pasta Arrabbiata",
+        "description": "Penne pasta in a bold, spicy tomato and chilli sauce, finished with fresh parsley and parmesan.",
+        "price": 280,
+        "category": "Main Course",
+        "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400&auto=format&fit=crop",
+        "isBestSeller": false
+      }
+    ]
+  },
+  {
+    "id": "the-spicy-bistro",
+    "name": "The Spicy Bistro",
+    "rating": 4.7,
+    "cuisine": "Continental",
+    "location": "Juhu",
+    "priceForTwo": 600,
+    "isVeg": false,
+    "image": "https://images.unsplash.com/photo-1544025162-d76594e1e0b4?w=800&auto=format&fit=crop",
+    "menu": [
+      {
+        "id": "tsb-1",
+        "name": "Margherita Pizza",
+        "description": "Stone-baked thin crust with San Marzano tomatoes, buffalo mozzarella, and hand-torn basil leaves.",
+        "price": 420,
+        "category": "Recommended",
+        "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400&auto=format&fit=crop",
+        "isBestSeller": true
+      },
+      {
+        "id": "tsb-2",
+        "name": "Truffle Mushroom Risotto",
+        "description": "Arborio rice slow-cooked with wild mushrooms, a generous drizzle of truffle oil, and aged parmesan.",
+        "price": 560,
+        "category": "Main Course",
+        "image": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=400&auto=format&fit=crop",
+        "isBestSeller": false
+      },
+      {
+        "id": "tsb-3",
+        "name": "Grilled Atlantic Salmon",
+        "description": "Pan-seared Atlantic salmon fillet with lemon-herb butter, steamed asparagus, and smooth mashed potatoes.",
+        "price": 680,
+        "category": "Main Course",
+        "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400&auto=format&fit=crop",
+        "isBestSeller": false
+      },
+      {
+        "id": "tsb-4",
+        "name": "Chocolate Lava Cake",
+        "description": "Warm dark chocolate cake with a gooey molten centre, served alongside premium vanilla ice cream.",
+        "price": 280,
+        "category": "Desserts",
+        "image": "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?w=400&auto=format&fit=crop",
+        "isBestSeller": false
+      }
+    ]
+  },
+  {
+    "id": "burger-barn",
+    "name": "Burger Barn",
+    "rating": 3.9,
+    "cuisine": "American, Burgers",
+    "location": "Powai",
+    "priceForTwo": 350,
+    "isVeg": false,
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&auto=format&fit=crop",
+    "menu": [
+      {
+        "id": "bb-1",
+        "name": "Classic Cheeseburger",
+        "description": "Juicy beef patty with melted cheddar, crisp lettuce, vine tomatoes, pickles, and our house special sauce.",
+        "price": 280,
+        "category": "Recommended",
+        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&auto=format&fit=crop",
+        "isBestSeller": true
+      },
+      {
+        "id": "bb-2",
+        "name": "Crispy Chicken Burger",
+        "description": "Buttermilk-marinated fried chicken thigh with crunchy slaw and smoky chipotle mayo on a brioche bun.",
+        "price": 260,
+        "category": "Recommended",
+        "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=400&auto=format&fit=crop",
+        "isBestSeller": false
+      },
+      {
+        "id": "bb-3",
+        "name": "Loaded Cheese Fries",
+        "description": "Crispy golden fries drenched in warm cheddar sauce, topped with bacon bits and spring onions.",
+        "price": 160,
+        "category": "Sides",
+        "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=400&auto=format&fit=crop",
+        "isBestSeller": false
+      }
+    ]
+  }
+]
